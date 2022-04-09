@@ -16,7 +16,7 @@
 #define ICW4_BUF_SLAVE	0x08		/* Buffered mode/slave */
 #define ICW4_BUF_MASTER	0x0C		/* Buffered mode/master */
 #define ICW4_SFNM	0x11		/* Special fully nested (not) */
-
+//I took many code in trying to fix things
 
 static inline void port_out_b(unsigned short port, unsigned char val)
 {
